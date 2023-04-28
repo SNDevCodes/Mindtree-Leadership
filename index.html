@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Owl Corousel CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Jquery JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <style>
+
+        .lead-position{
+            text-align: left!important;
+        }
+        .lead-name{
+            text-align: left!important;
+            padding-bottom: 16px!important;
+            font-size: 20px!important;
+            color: white!important;
+        }
+         .lead-btn{
+            background: transparent!important;
+            color: white!important;
+            border: 2px solid white!important;
+            padding: 6px!important;
+            border-radius: 0px!important;
+            width: 50%!important;
+            font-size: 12px!important;
+        }
+        .lead-img{
+         width: 400px; height: 280px!important;
+       }
+       .lead-cont{
+            align-items: flex-end!important;
+        }
+        #carouselLeft .lead-cont{
+            align-items: flex-start!important;
+        }
+        @media only screen and (max-width: 450px){
+            .lead-btn{
+                width: 60%!important;
+            }
+
+        }
+      
+
+
+        .owl-nav button {
+            position: absolute;
+            top: 50%;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .owl-nav button.owl-prev {
+            left: 0;
+        }
+
+        .owl-nav button.owl-next {
+            right: 0;
+        }
+
+        .owl-dots {
+            text-align: center;
+            padding-top: 15px;
+            display: none;
+        }
+
+        .owl-dots button.owl-dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: inline-block;
+            background: #ccc;
+            margin: 0 3px;
+        }
+
+        .owl-dots button.owl-dot.active {
+            background-color: #000;
+        }
+
+        .owl-dots button.owl-dot:focus {
+            outline: none;
+        }
+
+        .owl-nav button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.38) !important;
+        }
+
+        /* span {
+            font-size: 70px;
+            position: relative;
+            top: -5px;
+        } */
+
+        .owl-nav button:focus {
+            outline: none;
+        }
+      
+    </style>
+
+
+    <div class="owl-slider">
+        <div id="carousel" class="owl-carousel">
+      
+           
+            <!-- Abraham  -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lead-wrap d-flex  justify-content-center">
+                            <div class="lead-cont d-flex flex-column p-3 text-white  justify-content-center" style="background: #662C91;">
+                                <h2 class="lead-name ">James Abraham</h2>
+                                <p style="margin: 0;" class="lead-position">Chairman, CSR committee and Independent <br> Director, LTIMindtree   </p>
+                                
+                                <button class="button5 lead-btn" data-toggle="modal" data-target="#James-Abraham "> Read More </button>
+                            </div>
+                            <div class="lead-img" style="background: url('https://digital.innogenx.in/mindtree/wp-content/uploads/2023/04/James-Abraham.png'); background-position: center; background-size: cover;  ">
+                                <!-- <img class="img-fluid" src="mindtree-img/lead-paneesh_rao.png" alt="Panneesh-rao"> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Anil Manibhai Naik -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lead-wrap d-flex">
+                            <div class="lead-img" style="background: url('https://digital.innogenx.in/mindtree/wp-content/uploads/2023/04/A-M-Naik.png'); background-position: center; background-size: cover;  ">
+                                <!-- <img class="img-fluid" src="/indtree-img/lead-paneesh_rao.png" alt="Panneesh-rao"> -->
+                            </div>
+                            <div class="lead-cont d-flex flex-column p-3 text-white  justify-content-center" style="background: #E8385C;">
+                                <h2 class="lead-name ">A.M.Naik</h2>
+                                <p style="margin: 0;" class="lead-position">Chairman, Larsen & Tourbro Limited  
+                                    </p>
+                                    <p class="lead-position">Non-Executive Chairman, LTIMindtree Limited
+</p>
+                                <button data-toggle="modal" data-target="#Anil" class=" lead-btn"> Read More </button>
+                            </div>
+                          
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+           
+            
+          
+            
+        </div>
+    </div>
+
+    <div style=" height: 20px;">
+
+    </div>
+
+    <div class="owl-slider">
+        <div id="carouselLeft" class="owl-carousel">
+            
+            <!-- Apurva -->
+              <div class="item">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lead-wrap d-flex">
+                            <div class="lead-cont d-flex flex-column p-3 text-white  justify-content-center" style="background: #760043;">
+                                <h2 class="lead-name ">Apurva Purohit</h2>
+                                <p  class="lead-position">Member, CSR Committee  Independent Director, LTIMindtree
+ </p>
+                                <button class="lead-btn" data-toggle="modal" data-target="#Apurva"> Read More </button>
+                            </div>
+                            <div class="lead-img" style="background: url('https://digital.innogenx.in/mindtree/wp-content/uploads/2023/04/Apurva-Purohit.png'); background-position: center; background-size: cover;  ">
+                                <!-- <img class="img-fluid" src="mindtree-img/lead-paneesh_rao.png" alt="Panneesh-rao"> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+             <!-- Debashis Chatterjee -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lead-wrap d-flex justify-content-center">
+                            <div class="lead-cont d-flex flex-column p-3 text-white  justify-content-center" style="background: #662C91;">
+                                <h2 class="lead-name ">Debashis Chatterjee</h2>
+                                <p class="lead-position">Chief Executive Officer and Managing Director
+LTIMindtree 
+</p>
+                                <button class="lead-btn" data-toggle="modal" data-target="#Debashis "> Read More </button>
+                            </div>
+                            <div class="lead-img" style="background: url('https://digital.innogenx.in/mindtree/wp-content/uploads/2023/04/Debashis-Chatterjee.png'); background-position: center; background-size: cover;  ">
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <!-- Paneesh Rao -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lead-wrap d-flex">
+                            <div class="lead-cont d-flex flex-column p-3 text-white  justify-content-center" style="background: #313480;">
+                                <h2 class="lead-name ">Paneesh Rao</h2>
+                                <p class="lead-position">Chief Sustainability Officer, LTIMindtree
+ </p>
+                                <button class="lead-btn" data-toggle="modal" data-target="#Paneesh "> Read More </button>
+                            </div>
+                            <div class="lead-img" style="background: url('https://digital.innogenx.in/mindtree/wp-content/uploads/2023/04/Paneesh-Rao.png'); background-position: center; background-size: cover;  ">
+                                <!-- <img class="img-fluid" src="mindtree-img/lead-paneesh_rao.png" alt="Panneesh-rao"> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+
+          
+
+
+           
+          
+        </div>
+    </div>
+
+    <script>
+
+        // Right Corousel 
+        jQuery("#carousel").owlCarousel({
+            autoplay: false,
+            // rewind: true, 
+            margin: 20,
+            autoplayHoverPause: true, 
+            loop: true,
+            /*
+           animateOut: 'fadeOut',
+           animateIn: 'fadeIn',
+           */
+            responsiveClass: true,
+            rtl: true,
+            autoHeight: true,
+            autoplayTimeout: 4000,
+            smartSpeed: 800,
+            //   nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                600: {
+                    items: 2
+                },
+
+                1024: {
+                    items: 2
+                },
+
+                1366: {
+                    items: 2
+                }
+            }
+        });
+
+
+        // Left Corousel
+
+        jQuery("#carouselLeft").owlCarousel({
+            autoplay: false,
+            // rewind: true, 
+            margin: 20,
+            autoplayHoverPause: true, 
+            loop: true,
+            /*
+           animateOut: 'fadeOut',
+           animateIn: 'fadeIn',
+           */
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 4000,
+            smartSpeed: 800,
+            //   nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                600: {
+                    items: 2
+                },
+
+                1024: {
+                    items: 3
+                },
+
+                1366: {
+                    items: 3
+                }
+            }
+        });
+        
+    </script>
+
+
+
+</body>
+
+</html>
